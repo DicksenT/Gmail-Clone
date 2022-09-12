@@ -1,0 +1,27 @@
+.widget__logo{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 50%;
+    justify-content: space-between;
+}
+.widget{
+    background-color: #f6f8fc;
+    display: flex;
+    flex-direction: column;
+}
+.widget__bottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+hr{
+    width: 70%;
+    margin-bottom: 20px;
+    color: gray;
+}
+.widget__func{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+}

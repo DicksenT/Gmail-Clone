@@ -1,0 +1,48 @@
+.header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background-color: #f6f8fc;
+ padding: 14px;
+ height: 50px;
+}
+.header__left>figure{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.header__left> figure >img{
+    object-fit: contain;
+    margin-left: 5px;
+    height: 30px;
+    margin-right: 10px;
+}
+.header__left> figure> h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__middle{
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    background-color: #eef3fc;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.header__middle > input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    background-color: #eef3fc;
+}
+.header__right{
+    display: flex;
+    padding-right: 20px;
+}
